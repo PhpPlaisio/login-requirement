@@ -9,10 +9,10 @@ interface LoginRequirement
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Validates a requirement to a login request.
+   * Validates a requirement to a login request and returns the ID of the login response.
    *
-   * @param array $data The data for validating the requirement to the login request. This method might enhance this
-   *                    array with new elements.
+   * @param array $data The data for validating the requirement to the login request. This method is allowed to enhance
+   *                    this array with new elements.
    *
    * @return int
    */
