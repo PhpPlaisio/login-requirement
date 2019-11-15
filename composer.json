@@ -1,19 +1,17 @@
 {
-  "name": "setbased/abc-login-requirement",
-  "description": "ABC-Framework: Login Requirement",
+  "name": "plaisio/login-requirement",
+  "description": "PhpPlaisio: Login Requirement",
   "keywords": [
-    "ABC-Framework",
-    "Login",
-    "Requirement"
+    "PhpPlaisio",
+    "Login Requirement"
   ],
-  "type": "library",
   "license": "MIT",
   "require": {
     "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\Login\\": "src/"
+      "Plaisio\\Login\\": "src/"
     }
   }
 }
